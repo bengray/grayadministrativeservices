@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: { // This object needs to be changed with each new site
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Gray Administrative Services`,
+    description: `Catchy description here.`,
+    author: `Bethany Gray`,
+    siteUrl: `https://grayadministrativeservices.com`,
   },
   plugins: [
     `gatsby-plugin-image`,

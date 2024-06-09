@@ -1,7 +1,10 @@
 :root {
   --border-radius: 4px;
   --color-text: #333;
-  --color-primary: #7026b9;
+  --color-text-secondary: #fff;
+  --color-link-secondary: #393f55;
+  --color-primary: #547858;
+  --color-secondary: #78a3ac;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -51,6 +54,9 @@ a {
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
+  .footer & {
+    color: var(--color-link-secondary);
+  }
 }
 a:active,
 a:hover {
